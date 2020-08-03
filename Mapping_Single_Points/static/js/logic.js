@@ -25,6 +25,15 @@ attribution: 'Map data © <a href="https://www.openstreetmap.org/">OpenStreetMap
 // Then we add our 'graymap' tile layer to the map.
 streets.addTo(map); //Finally, we call the addTo() function with our map object, map on our graymap object tile layer. The addTo() function will add the graymap object tile layer to our let map.
 
+
+//  Add a marker to the map for Los Angeles, California.
+let marker = L.marker([34.0522, -118.2437]).addTo(map);
+
+L.circle([34.0522, -118.2437], {
+    radius: 300,
+    color:"black",
+    fillcolor:'#ffffa1'
+ }).addTo(map);
 /* list of mapbox attributes:
 
     mapbox.streets
@@ -42,4 +51,6 @@ streets.addTo(map); //Finally, we call the addTo() function with our map object,
     mapbox.high-contrast
 
 */
+
+
 
