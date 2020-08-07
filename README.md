@@ -4,6 +4,7 @@ UC Berkeley Extension Data Analytics Boot Camp Module 13
 
 <i>Using Leaflet.js, D3.js, and GeoJSON.</i>
 
+### Note: Challenge assignment files are in the "Challenge" folder in the repository.
 ---
 
 ## Purpose:
