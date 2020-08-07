@@ -71,7 +71,7 @@ d3.json(airportData).then(function(data) {
       }
     }).addTo(map);
 }); */
-
+ 
 /* Grabbing our GeoJSON data.
 d3.json(torontoData).then(function(data) {
     console.log(data);
@@ -84,4 +84,4 @@ d3.json(last7EQ).then(function(data) {
   console.log(data);
 // Creating a GeoJSON layer with the retrieved data.
 L.geoJson(data).addTo(map);
-});
+}); 

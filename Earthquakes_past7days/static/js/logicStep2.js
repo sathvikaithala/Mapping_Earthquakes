@@ -93,13 +93,13 @@ d3.json(last7EQ).then(function(data) {
           },
           syle:styleInfo
       }).addTo(map);
-
+ 
       // This function returns the style data for each of the earthquakes we plot on
 // the map. We pass the magnitude of the earthquake into a function
 // to calculate the radius.
     function styleInfo(feature) {
       return {
-        opacity: 1,
+        opacity: 1, 
         fillOpacity: 1,
         fillColor: "#ffae42",
         color: "#000000",
